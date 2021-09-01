@@ -1,0 +1,1 @@
+this directory works on the basis of nested loops or just simply loops within loops
