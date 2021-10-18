@@ -1,17 +1,18 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
-*main - Prints all single digits of base 10 followed by new line
-*
-*Return: returns 0
-*/
+ * main - print if the number is postive, zero, or negative
+ *
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or negative
+ * Return: 0
+ */
 int main(void)
 {
-int digit;
-for (digit = '0'; digit <= '9'; digit++)
+int i;
+for (i = 0; i < 10; i++)
 {
-putchar(digit);
+	printf("%i", i);
 }
-putchar('\n');
+printf("\n");
 return (0);
 }
