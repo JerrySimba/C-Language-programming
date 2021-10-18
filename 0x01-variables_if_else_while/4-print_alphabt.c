@@ -1,20 +1,20 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
-*main - Program to print alphabet letters except q and e followed by new line
-*
-*Return: return 0
-*/
+ * main - print if the number is postive, zero, or negative
+ *
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or negative
+ * Return: 0
+ */
 int main(void)
 {
-int letter;
-for (letter = 'a'; letter <= 'z' ; letter++)
+char ch;
+for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-if (letter == 'q' || letter == 'e')
+if (ch != 'e' && ch != 'q')
 {
-continue;
+	putchar(ch);
 }
-putchar(letter);
 }
 putchar('\n');
 return (0);
